@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+    padding-top: 4em;
+}
+
+.title {
+    color: aliceblue;
+    font-size: xx-large;
+    text-align: center;
+    font-style: normal;
+    font-family: 'Dancing Script', cursive;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+
+p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.intro-container {
+    margin: auto;
+    width: 80%;
+    border: 1px solid coral;
+    padding: 0 1em;
+    margin-bottom: 4em;
+}
+
+.link-container {
+    text-align: center;
+}
+
+.link-container a {
+    font-size: 2em;
+    margin: 0 0.3em;
+    text-decoration: none;
+}
+
+.link-container a img {
+    width: auto;
+    height: 50px;
+}
+
+
+@media (max-width:320px) {
+    body {
+        padding-top: 1em;
+    }
+}
